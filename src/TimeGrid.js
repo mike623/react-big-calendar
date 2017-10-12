@@ -249,7 +249,9 @@ export default class TimeGrid extends Component {
           <div
             className='rbc-label rbc-header-gutter'
             style={{ width }}
-          />
+          >
+          {this.props.components.headerGutter}
+          </div>
           { this.renderHeaderCells(range) }
         </div>
         <div className='rbc-row'>
